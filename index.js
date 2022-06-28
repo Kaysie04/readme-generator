@@ -2,15 +2,15 @@
 import inquirer from "inquirer";
 import fs from "fs"
 import util from "util"
-import generateMarkdown from "./utils/generateMarkdown"
+import generateMarkdown from "./utils/generateMarkdown.js"
 
 // Create an array of questions for user input
- const userPrompts = () => {
+ const promptUser = () => {
     return inquirer
     .prompt([
         {   
             type: "input",
-            name: "projectTitle",
+            name: "title",
             message: "What is the name of your project?"
         },
         {
@@ -25,7 +25,7 @@ import generateMarkdown from "./utils/generateMarkdown"
         {
             type: "input",
             name: "usage",
-            message: "What is the inteded usage?"
+            message: "What is the intended usage?"
         },
         {
             type: "input",
@@ -34,12 +34,25 @@ import generateMarkdown from "./utils/generateMarkdown"
         },
         {
             type: "list",
-            name: "licenses",
-            message: "Please select the license used"
+            name: "license",
+            message: "Please select the license used",
+            choices: [
+                "ISC",
+                "MIT",
+                "Mozilla",
+                "Apache",
+                "Academic",
+                "GNU"
+            ]
         }   
     ])
  }
 
+ promptUser()
+ .then(markdownData => {
+    const pageHTML = generateMarkdown(markdownData);
+
+ })
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
