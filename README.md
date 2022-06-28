@@ -1,4 +1,4 @@
-# README Generator 
+# README Generator
 
 ## User Story
 AS A developer
