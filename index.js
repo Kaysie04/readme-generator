@@ -1,8 +1,10 @@
 // import necessary files
 import inquirer from "inquirer";
-import fs from "fs"
+import fs from 'fs'
 import util from "util"
 import generateMarkdown from "./utils/generateMarkdown.js"
+const writeFile= util.promisify(fs.writeFile);
+const createdReadme = "./createdReadme/reademe.md"
 
 // Create an array of questions for user input
  const promptUser = () => {
@@ -41,24 +43,21 @@ import generateMarkdown from "./utils/generateMarkdown.js"
                 "MIT",
                 "Mozilla",
                 "Apache",
-                "Academic",
-                "GNU"
+                "Academic"
             ]
         }   
     ])
  }
 
- promptUser()
- .then(markdownData => {
-    const pageHTML = generateMarkdown(markdownData);
 
- })
+async function init() { 
+    try {
+        const userAnswers = await promptUser();
+        const generateReadme = generateMarkdown(userAnswers);
+        await writeFile(createdReadme, generateReadme)
+    }   catch(err) {
+        console.log(err);
+        }
+} 
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
 init();
