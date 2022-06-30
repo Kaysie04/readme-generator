@@ -45,7 +45,12 @@ const createdReadme = "./createdReadme/reademe.md"
                 "Apache",
                 "Academic"
             ]
-        }   
+        },
+        {
+            type: "input",
+            name: "githubName",
+            message: "What is your GitHub username?"
+        }
     ])
  }
 
