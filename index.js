@@ -4,7 +4,7 @@ import fs from 'fs'
 import util from "util"
 import generateMarkdown from "./utils/generateMarkdown.js"
 const writeFile= util.promisify(fs.writeFile);
-const createdReadme = "./createdReadme/reademe.md"
+const nodeReadME = "./dist/README.md"
 
 // Create an array of questions for user input
  const promptUser = () => {
@@ -59,7 +59,8 @@ async function init() {
     try {
         const userAnswers = await promptUser();
         const generateReadme = generateMarkdown(userAnswers);
-        await writeFile(createdReadme, generateReadme)
+        await writeFile(nodeReadME, generateReadme)
+        console.log("Your readme has been generated!")
     }   catch(err) {
         console.log(err);
         }

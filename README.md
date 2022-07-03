@@ -1,4 +1,9 @@
-# README Generator
+# README Generator Using Node.js
+
+## Description
+A node.js application that uses user input to create a README.md file. Inquirer is used to capture user input.
+
+![Node Image](/utils/readmeimg.png)
 
 ## User Story
 AS A developer
@@ -22,4 +27,16 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Installation 
+npm init
+npm inquirer
+
+## Usage 
+Type in the following command and answer the prompt questions.
+
+node index.js
+
+## Functionality of Application
+Click [here](link) for a demonstration video.
+
+[I'm an inline-style link](https://www.google.com)
