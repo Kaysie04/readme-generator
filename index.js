@@ -54,7 +54,7 @@ const nodeReadME = "./dist/README.md"
     ])
  }
 
-
+// import generate markdown that was created based on user input and create a .md file
 async function init() { 
     try {
         const userAnswers = await promptUser();
