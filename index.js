@@ -60,7 +60,7 @@ async function init() {
         const userAnswers = await promptUser();
         const generateReadme = generateMarkdown(userAnswers);
         await writeFile(nodeReadME, generateReadme)
-        console.log("Your readme has been generated!")
+        console.log("Your readme has been generated! Please check the dist folder for your created readme.md file. ")
     }   catch(err) {
         console.log(err);
         }

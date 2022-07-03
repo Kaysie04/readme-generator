@@ -1,25 +1,31 @@
  
   
-  # project name
+  # README Generator
 
   ## Description
-    description of project
+    Using node.js to generate a readme.md file.
+
+  ## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributors](#contributors)
 
   ## Installation Guide
-    to install everything
+    npm install inquirer
 
   ## Usage
-    to be used
+    An assigment for a coding bootcamp.
 
-  ## Controbutors
-    kaysie
+  ## Contributors
+    Kaysie Anderson
 
-  ## License
-    
+  ## License   
 
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+    ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
     This application is covered by the MIT license. 
 
   ## GitHub Username
-    kaysei04
+    Kaysie04
   

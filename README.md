@@ -37,6 +37,7 @@ Type in the following command and answer the prompt questions.
 node index.js
 
 ## Functionality of Application
-Click [here](link) for a demonstration video.
+Click [here](https://watch.screencastify.com/v/PeZAcXWGuuEJ1XXhjjWo) for a demonstration video.
 
-[I'm an inline-style link](https://www.google.com)
+## License
+MIT

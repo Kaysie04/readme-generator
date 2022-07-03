@@ -11,7 +11,7 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 - [Description](#description)
-- [Installation](#installation guide)
+- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributors](#contributors)
@@ -27,7 +27,7 @@ function generateMarkdown(data) {
 
   ## License   
 
-![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
+    ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
     This application is covered by the ${data.license} license. 
 
   ## GitHub Username
