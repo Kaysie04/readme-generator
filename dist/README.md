@@ -12,7 +12,7 @@
 - [License](#license)
 - [Contributors](#contributors)
 
-  ## Installation Guide
+  ## Installation
     npm install inquirer
 
   ## Usage
