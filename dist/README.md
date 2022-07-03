@@ -3,7 +3,7 @@
   # README Generator
 
   ## Description
-    Using node.js to generate a readme.md file.
+  Using node.js to generate a readme.md file.
 
   ## Table of Contents
 - [Description](#description)
