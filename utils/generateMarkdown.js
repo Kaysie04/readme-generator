@@ -15,6 +15,8 @@ function generateMarkdown(data) {
 - [Usage](#usage)
 - [License](#license)
 - [Contributors](#contributors)
+- [Tests](#tests)
+- [Questions](#questions)
 
   ## Installation Guide
     ${data.installation}
@@ -25,13 +27,20 @@ function generateMarkdown(data) {
   ## Contributors
     ${data.contributors}
 
+    ## Tests
+    ${data.tests}
+
   ## License   
 
     ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
     This application is covered by the ${data.license} license. 
 
-  ## GitHub Username
-    ${data.githubName}
+  ## Questions
+    ${data.questions}<br />
+    <br />
+    GitHub: ${data.githubName}<br />
+    <br />
+    Email: ${data.email}
   `;
 }
 

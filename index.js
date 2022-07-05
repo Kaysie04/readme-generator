@@ -46,10 +46,26 @@ const nodeReadME = "./dist/README.md"
                 "Academic"
             ]
         },
+
+        {
+            type: "input",
+            name: "tests",
+            message: "Are there any tests included?"
+        },
+        {
+            type: "input",
+            name: "questions",
+            message: "What to do if there are any problems"
+        },
         {
             type: "input",
             name: "githubName",
             message: "What is your GitHub username?"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Please enter your email",
         }
     ])
  }
