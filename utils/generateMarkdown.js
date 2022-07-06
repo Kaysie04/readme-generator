@@ -18,7 +18,7 @@ function generateMarkdown(data) {
 - [Tests](#tests)
 - [Questions](#questions)
 
-  ## Installation Guide
+  ## Installation
     ${data.installation}
 
   ## Usage

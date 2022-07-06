@@ -1,9 +1,9 @@
  
 
-  # test
+  # The README Generator
 
   ## Description
-  test
+  Using node.js to create a readme based on user input
 
   ## Table of Contents
 - [Description](#description)
@@ -14,25 +14,25 @@
 - [Tests](#tests)
 - [Questions](#questions)
 
-  ## Installation Guide
-    test
+  ## Installation
+    npm install inquirer
 
   ## Usage
-    test
+    An assginment for a coding bootcamp.
 
   ## Contributors
-    test
+    Kaysie Anderson
 
     ## Tests
-    test
+    No
 
   ## License   
 
-    ![badge](https://img.shields.io/badge/license-ISC-brightgreen)<br />
-    This application is covered by the ISC license. 
+    ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+    This application is covered by the MIT license. 
 
   ## Questions
-    test<br />
+    Feel free to contact me!<br />
     <br />
     GitHub: [Kaysie04](https://github.com/Kaysie04)<br />
     <br />
