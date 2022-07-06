@@ -50,7 +50,7 @@ node index.js
 ```
 
 ## Functionality of Application
-Click [here](https://watch.screencastify.com/v/PeZAcXWGuuEJ1XXhjjWo) for a demonstration video.
+Click [here](https://watch.screencastify.com/v/Bx2XKqv0bLKRRpsak9lm) for a demonstration video.
 
 ## License
 MIT

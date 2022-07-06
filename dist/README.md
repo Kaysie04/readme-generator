@@ -3,7 +3,7 @@
   # The README Generator
 
   ## Description
-  Using node.js to create a readme based on user input
+  Using node.js to createa readme.md file from user input.
 
   ## Table of Contents
 - [Description](#description)
@@ -18,7 +18,7 @@
     npm install inquirer
 
   ## Usage
-    An assginment for a coding bootcamp.
+    An assignment for a coding bootcamp.
 
   ## Contributors
     Kaysie Anderson
@@ -34,7 +34,7 @@
   ## Questions
     Feel free to contact me!<br />
     <br />
-    GitHub: [Kaysie04](https://github.com/Kaysie04)<br />
+    GitHub: [Kaysie04	](https://github.com/Kaysie04	)<br />
     <br />
     Email: kaysielanderson@gmail.com
   
